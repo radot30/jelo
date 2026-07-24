@@ -1,0 +1,100 @@
+# ==========================================
+# Flutter / Dart / Pub
+# ==========================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+doc/api/
+*.lock
+
+# ==========================================
+# Android
+# ==========================================
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/libs/
+android/app/key.properties
+android/app/*.keystore
+android/app/*.jks
+android/*.iml
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# iOS / macOS
+# ==========================================
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Pods/
+ios/.symlinks/
+ios/profile/
+ios/release/
+ios/*.modev3
+ios/*.moved-aside
+ios/*.pbxuser
+ios/*.perspectivev3
+ios/DerivedData/
+ios/*.xcworkspace
+ios/.generated/
+
+# ==========================================
+# Windows / Linux desktop build outputs
+# ==========================================
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# OS & Temporary Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.class
+*.log
+*.pyc
+
+# ==========================================
+# Secrets & Environment Files
+# ==========================================
+*.env
+*.env.*
+!.env.example
+
+# ==========================================
+# Scratch / Temp Scripts
+# ==========================================
+test_api.js
+test_api.dart
