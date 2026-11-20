@@ -32,7 +32,7 @@ Pastikan emulator atau HP kamu sudah terdeteksi:
 flutter devices
 ```
 
-### 3. Jalankan Aplikasi! 🎉
+### 3. Jalankan Aplikasi!
 Jalankan aplikasi ke emulator atau HP yang terhubung:
 ```bash
 flutter run
